@@ -1,0 +1,833 @@
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(generator_version "8.0")
+	(symbol "NUP2201MR6"
+		(pin_names
+			(offset 0.0254) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "VD"
+			(at 2.54 19.05 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NUP2201MR6"
+			(at 0 -26.67 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm"
+			(at 0 -30.48 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.onsemi.ru.com/pub/Collateral/NUP2201MR6-D.PDF"
+			(at 0 2.4892 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode TVS array"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "NUP2201MR6_0_1"
+			(arc
+				(start -16.51 -11.43)
+				(mid -15.0311 -15.0386)
+				(end -11.43 -16.51)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start -11.43 16.51)
+				(mid -15.0131 15.0206)
+				(end -16.51 11.43)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center -10.16 0)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 0 -11.43)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -16.51 -11.43) (xy -16.51 11.43)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -16.51 0) (xy -10.16 0)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -13.1572 -2.5908) (xy -7.1628 -2.5908)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -13.1572 7.5692) (xy -7.1628 7.5692)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -11.43 16.51) (xy 11.43 16.51)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -10.16 -11.43) (xy -10.16 11.43)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -10.16 -11.43) (xy 10.16 -11.43)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -10.16 11.43) (xy 10.16 11.43)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.9972 2.4892) (xy 2.9972 2.4892)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 16.51) (xy 0 -16.51)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.9972 2.4892) (xy 2.9972 0.508)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.1628 -2.5908) (xy 13.1572 -2.5908)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.1628 7.5692) (xy 13.1572 7.5692)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 0) (xy 16.51 0)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 11.43) (xy 10.16 -11.43)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 11.43 -16.51) (xy -11.43 -16.51)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 16.51 11.43) (xy 16.51 -11.43)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -10.16 -2.5908) (xy -13.1572 -7.5692) (xy -7.1628 -7.5692) (xy -10.16 -2.5908)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -10.16 7.5692) (xy -13.1572 2.5908) (xy -7.1628 2.5908) (xy -10.16 7.5692)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.4892) (xy -2.9972 -2.4892) (xy 2.9972 -2.4892) (xy 0 2.4892)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 -2.5908) (xy 7.1628 -7.5692) (xy 13.1572 -7.5692) (xy 10.16 -2.5908)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 7.5692) (xy 7.1628 2.5908) (xy 13.1572 2.5908) (xy 10.16 7.5692)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 11.43)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 10.16 0)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(arc
+				(start 11.43 -16.51)
+				(mid 15.0131 -15.0206)
+				(end 16.51 -11.43)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 16.51 11.43)
+				(mid 15.0311 15.0386)
+				(end 11.43 16.51)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "NUP2201MR6_1_1"
+			(pin passive line
+				(at -22.86 0 0)
+				(length 6.35)
+				(name "IO"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -22.86 90)
+				(length 6.35)
+				(name "VN"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 22.86 270)
+				(length 6.35)
+				(name "VP"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 0 180)
+				(length 6.35)
+				(name "IO"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "SP0503BAHTG"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "VD"
+			(at 11.43 7.62 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SP0503BAHTG"
+			(at 0 -13.97 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-143"
+			(at 0 -17.78 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.littelfuse.com/~/media/Electronics/Datasheets/TVS_Diode_Arrays/Littelfuse_TVS_Diode_Array_SP05_Datasheet.pdf.pdf"
+			(at 0 2.4892 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TVS Diode Arrays"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "SP0503BAHTG_0_1"
+			(arc
+				(start -7.62 5.9944)
+				(mid -13.6144 0)
+				(end -7.62 -5.9944)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 -4.445)
+				(radius 0.508)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -10.6172 2.4892) (xy -4.6228 2.4892)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 -5.9944) (xy 7.62 -5.9944)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 -4.445) (xy 7.62 -4.445)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 6.35) (xy -7.62 -4.445)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.6228 2.4892) (xy -4.6228 0.508)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.9972 2.4892) (xy 2.9972 2.4892)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 6.35) (xy 0 -6.35)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.9972 2.4892) (xy 2.9972 0.508)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.6228 2.4892) (xy 10.6172 2.4892)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 5.969) (xy -7.62 5.9944)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 6.35) (xy 7.62 -4.445)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.6172 2.4892) (xy 10.6172 0.508)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 2.4892) (xy -10.6172 -2.4892) (xy -4.6228 -2.4892) (xy -7.62 2.4892)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 2.4892) (xy -2.9972 -2.4892) (xy 2.9972 -2.4892) (xy 0 2.4892)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 2.4892) (xy 4.6228 -2.4892) (xy 10.6172 -2.4892) (xy 7.62 2.4892)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 7.62 -5.9944)
+				(mid 13.6144 0)
+				(end 7.62 5.9944)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "SP0503BAHTG_1_1"
+			(pin passive line
+				(at 0 -10.16 90)
+				(length 3.81)
+				(name "common"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 10.16 270)
+				(length 3.81)
+				(name "K"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 10.16 270)
+				(length 3.81)
+				(name "K"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 10.16 270)
+				(length 3.81)
+				(name "K"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+			)
+		)
+	)
+)

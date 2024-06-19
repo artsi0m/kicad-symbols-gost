@@ -1,0 +1,1116 @@
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(generator_version "8.0")
+	(symbol "МДМ-5Н"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "DA"
+			(at 0 12.7 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+			)
+		)
+		(property "Value" "МДМ-5Н"
+			(at -1.27 -12.7 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Converter_DCDC:Converter_DCDC_TRACO_TMR-xxxx_THT"
+			(at -1.27 -15.24 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://aedon.ru/content/catalog/docs/179/mdm5-n.pdf"
+			(at -22.86 5.08 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "МДМ-5Н_0_0"
+			(polyline
+				(pts
+					(xy -6.35 10.16) (xy -6.35 -10.16)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "*STU"
+				(at -0.635 5.08 0)
+				(effects
+					(font
+						(size 2.0066 2.0066)
+					)
+				)
+			)
+		)
+		(symbol "МДМ-5Н_0_1"
+			(rectangle
+				(start -17.78 10.16)
+				(end 17.78 -10.16)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.35 10.16) (xy 6.35 -10.16)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "МДМ-5Н_1_1"
+			(pin power_in line
+				(at -22.86 0 0)
+				(length 5.08)
+				(name "-ВХ"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -22.86 5.08 0)
+				(length 5.08)
+				(name "+ВХ"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.86 -5.08 0)
+				(length 5.08)
+				(name "ВКЛ"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 22.86 5.08 180)
+				(length 5.08)
+				(name "+ВЫХ"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 22.86 0 180)
+				(length 5.08)
+				(name "-ВЫХ"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "МДМ8-1П"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "DA"
+			(at 0 17.78 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+			)
+		)
+		(property "Value" "МДМ8-1П"
+			(at -1.27 -17.78 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Converter_DCDC_RU:Converter_DCDC_AEDON_МДМ8-П_Single_THT"
+			(at -1.27 -21.59 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://aedon.ru/content/catalog/docs/147/mdm3-p,_mdm5-p,_mdm6-p,_mdm8-p.pdf"
+			(at -22.86 10.16 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "МДМ8-1П_0_0"
+			(polyline
+				(pts
+					(xy -6.35 15.24) (xy -6.35 -15.24)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "*STU"
+				(at -0.635 10.16 0)
+				(effects
+					(font
+						(size 2.0066 2.0066)
+					)
+				)
+			)
+		)
+		(symbol "МДМ8-1П_0_1"
+			(rectangle
+				(start -17.78 15.24)
+				(end 17.78 -15.24)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.35 15.24) (xy 6.35 -15.24)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "МДМ8-1П_1_1"
+			(pin power_out line
+				(at 22.86 10.16 180)
+				(length 5.08)
+				(name "+ВЫХ"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 22.86 0 180)
+				(length 5.08)
+				(name "РЕГ"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 22.86 5.08 180)
+				(length 5.08)
+				(name "-ВЫХ"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -22.86 0 0)
+				(length 5.08)
+				(name "-ВХ"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -22.86 10.16 0)
+				(length 5.08)
+				(name "+ВХ"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -22.86 5.08 0)
+				(length 5.08)
+				(name "+ВХ"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 -10.16 180)
+				(length 5.08)
+				(name "КОРП"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -22.86 -5.08 0)
+				(length 5.08)
+				(name "-ВХ"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.86 -10.16 0)
+				(length 5.08)
+				(name "ВКЛ"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "МДМ8-2П"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "DA"
+			(at 0 17.78 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+			)
+		)
+		(property "Value" "МДМ8-2П"
+			(at 0 -17.78 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Converter_DCDC_RU:Converter_DCDC_AEDON_МДМ8-П_Dual_THT"
+			(at -1.27 -21.59 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://aedon.ru/content/catalog/docs/147/mdm3-p,_mdm5-p,_mdm6-p,_mdm8-p.pdf"
+			(at -22.86 10.16 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "МДМ8-2П_0_0"
+			(polyline
+				(pts
+					(xy -5.08 15.24) (xy -5.08 -15.24)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(text "*STU"
+				(at -0.635 10.16 0)
+				(effects
+					(font
+						(size 2.0066 2.0066)
+					)
+				)
+			)
+		)
+		(symbol "МДМ8-2П_0_1"
+			(rectangle
+				(start -17.78 15.24)
+				(end 17.78 -15.24)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 15.24) (xy 5.08 -15.24)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "МДМ8-2П_1_1"
+			(pin power_out line
+				(at 22.86 -5.08 180)
+				(length 5.08)
+				(name "-ВЫХ2"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 22.86 10.16 180)
+				(length 5.08)
+				(name "+ВЫХ1"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 22.86 5.08 180)
+				(length 5.08)
+				(name "-ВЫХ1"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -22.86 0 0)
+				(length 5.08)
+				(name "-ВХ"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -22.86 10.16 0)
+				(length 5.08)
+				(name "+ВХ"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -22.86 5.08 0)
+				(length 5.08)
+				(name "+ВХ"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 22.86 -10.16 180)
+				(length 5.08)
+				(name "КОРП"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -22.86 -5.08 0)
+				(length 5.08)
+				(name "-ВХ"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -22.86 -10.16 0)
+				(length 5.08)
+				(name "ВКЛ"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 22.86 0 180)
+				(length 5.08)
+				(name "+ВЫХ2"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "МДМ-2Н"
+		(extends "МДМ-5Н")
+		(property "Reference" "DA"
+			(at 0 12.7 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+			)
+		)
+		(property "Value" "МДМ-2Н"
+			(at -1.27 -12.7 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Converter_DCDC:Converter_DCDC_TRACO_TMR-xxxx_THT"
+			(at -1.27 -15.24 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://aedon.ru/content/catalog/docs/176/mdm2-n.pdf"
+			(at -22.86 5.08 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "МДМ-3Н"
+		(extends "МДМ-5Н")
+		(property "Reference" "DA"
+			(at 0 12.7 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+			)
+		)
+		(property "Value" "МДМ-3Н"
+			(at -1.27 -12.7 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Converter_DCDC:Converter_DCDC_TRACO_TMR-xxxx_THT"
+			(at -1.27 -15.24 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://aedon.ru/content/catalog/docs/178/mdm3-n.pdf"
+			(at -22.86 5.08 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "МДМ3-1П"
+		(extends "МДМ8-1П")
+		(property "Reference" "DA"
+			(at 0 17.78 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+			)
+		)
+		(property "Value" "МДМ3-1П"
+			(at -1.27 -17.78 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Converter_DCDC_RU:Converter_DCDC_AEDON_МДМ8-П_Single_THT"
+			(at -1.27 -21.59 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://aedon.ru/content/catalog/docs/147/mdm3-p,_mdm5-p,_mdm6-p,_mdm8-p.pdf"
+			(at -22.86 10.16 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "МДМ3-2П"
+		(extends "МДМ8-2П")
+		(property "Reference" "DA"
+			(at 0 17.78 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+			)
+		)
+		(property "Value" "МДМ3-2П"
+			(at 0 -17.78 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Converter_DCDC_RU:Converter_DCDC_AEDON_МДМ8-П_Dual_THT"
+			(at -1.27 -21.59 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://aedon.ru/content/catalog/docs/147/mdm3-p,_mdm5-p,_mdm6-p,_mdm8-p.pdf"
+			(at -22.86 10.16 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "МДМ5-1П"
+		(extends "МДМ8-1П")
+		(property "Reference" "DA"
+			(at 0 17.78 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+			)
+		)
+		(property "Value" "МДМ5-1П"
+			(at -1.27 -17.78 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Converter_DCDC_RU:Converter_DCDC_AEDON_МДМ8-П_Single_THT"
+			(at -1.27 -21.59 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://aedon.ru/content/catalog/docs/147/mdm3-p,_mdm5-p,_mdm6-p,_mdm8-p.pdf"
+			(at -22.86 10.16 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "МДМ5-2П"
+		(extends "МДМ8-2П")
+		(property "Reference" "DA"
+			(at 0 17.78 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+			)
+		)
+		(property "Value" "МДМ5-2П"
+			(at 0 -17.78 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Converter_DCDC_RU:Converter_DCDC_AEDON_МДМ8-П_Dual_THT"
+			(at -1.27 -21.59 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://aedon.ru/content/catalog/docs/147/mdm3-p,_mdm5-p,_mdm6-p,_mdm8-p.pdf"
+			(at -22.86 10.16 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "МДМ6-1П"
+		(extends "МДМ8-1П")
+		(property "Reference" "DA"
+			(at 0 17.78 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+			)
+		)
+		(property "Value" "МДМ6-1П"
+			(at -1.27 -17.78 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Converter_DCDC_RU:Converter_DCDC_AEDON_МДМ8-П_Single_THT"
+			(at -1.27 -21.59 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -22.86 10.16 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "МДМ6-2П"
+		(extends "МДМ8-2П")
+		(property "Reference" "DA"
+			(at 0 17.78 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+			)
+		)
+		(property "Value" "МДМ6-2П"
+			(at 0 -17.78 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Converter_DCDC_RU:Converter_DCDC_AEDON_МДМ8-П_Dual_THT"
+			(at -1.27 -21.59 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -22.86 10.16 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+)

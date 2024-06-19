@@ -1,0 +1,178 @@
+(kicad_symbol_lib
+	(version 20231120)
+	(generator "kicad_symbol_editor")
+	(generator_version "8.0")
+	(symbol "ГК1001-П"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "G"
+			(at 0 10.16 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+			)
+		)
+		(property "Value" "ГК1001-П"
+			(at 0 -10.16 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Oscillator:Oscillator_SMD_SeikoEpson_SG8002CA-4pin_7.0x5.0mm"
+			(at 0 -12.7 0)
+			(effects
+				(font
+					(size 2.0066 2.0066)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.oaopiezo.com/assets/files/OSC/gk_1001_p.pdf"
+			(at 5.08 -6.35 0)
+			(effects
+				(font
+					(size 2.4892 2.4892)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "ГК1001-П_0_0"
+			(rectangle
+				(start -12.7 7.62)
+				(end 12.7 -7.62)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(text "GN"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 2.0066 2.0066)
+					)
+				)
+			)
+		)
+		(symbol "ГК1001-П_0_1"
+			(polyline
+				(pts
+					(xy -3.81 7.62) (xy -3.81 -7.62)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 7.62) (xy 3.81 -7.62)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "ГК1001-П_1_1"
+			(pin input line
+				(at -17.78 2.54 0)
+				(length 5.08)
+				(name "~{OFF}"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 17.78 -2.54 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 17.78 2.54 180)
+				(length 5.08)
+				(name "OUT"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -17.78 -2.54 0)
+				(length 5.08)
+				(name "+U"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 2.0066 2.0066)
+						)
+					)
+				)
+			)
+		)
+	)
+)
